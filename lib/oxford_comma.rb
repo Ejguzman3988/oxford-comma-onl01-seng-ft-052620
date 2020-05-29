@@ -1,3 +1,6 @@
 def oxford_comma(array)
-  puts array.join(", ")
+  
+  empty_string = ""
+  array.each do |x|
+    empty_string << x
 end
