@@ -7,6 +7,9 @@ def oxford_comma(array)
       newString << ", and #{string}."
     else
       newString << ", #{string}"
+      
+    end
+    
   }
   
 end
